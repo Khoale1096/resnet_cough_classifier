@@ -1,0 +1,5 @@
+cough,{'precision': 0.7246376811594203, 'recall': 0.6711409395973155, 'f1-score': 0.6968641114982579, 'support': 149}
+speech,{'precision': 0.69375, 'recall': 0.7449664429530202, 'f1-score': 0.7184466019417476, 'support': 149}
+accuracy,0.7080536912751678
+macro avg,{'precision': 0.7091938405797101, 'recall': 0.7080536912751678, 'f1-score': 0.7076553567200028, 'support': 298}
+weighted avg,{'precision': 0.70919384057971, 'recall': 0.7080536912751678, 'f1-score': 0.7076553567200028, 'support': 298}
