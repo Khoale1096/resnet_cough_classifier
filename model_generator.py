@@ -87,9 +87,7 @@ def train(model_name):
         shear_range=0.2,
         zoom_range=(0.5, 1),
         horizontal_flip=True,
-        rotation_range=360,
-        channel_shift_range=25,
-        brightness_range=(0.75, 1.25))
+        rotation_range=360)
 
     # Validation image augmentation
     val_data_generator = ImageDataGenerator(
@@ -98,9 +96,7 @@ def train(model_name):
         shear_range=0.2,
         zoom_range=(0.5, 1),
         horizontal_flip=True,
-        rotation_range=360,
-        channel_shift_range=25,
-        brightness_range=(0.75, 1.25))
+        rotation_range=360)
 
     # Load train images in batches from directory and apply augmentations
     train_data_generator = train_data_generator.flow_from_dataframe(
