@@ -10,7 +10,7 @@
 
 ## Steps to run the inference
 
-* Download the ResNet model into the [resnet](./resnet/) directory and run ```python3 prediction_generator.py --model resnet```. The script will run this network through the test data and produce two outputs: a classification reports and a confusion matrix, both stored in [resnet](./resnet/)
+* Download the ResNet [model](https://drive.google.com/file/d/1XW05IqaFKksJnCq_19DP_RonQG_Wixb-/view) into the [resnet](./resnet/) directory and run ```python3 prediction_generator.py --model resnet```. The script will run this network through the test data and produce two outputs: a classification reports and a confusion matrix, both stored in [resnet](./resnet/)
 
 ## Step to run the end-to-end pipeline
 
