@@ -3,10 +3,10 @@
 ## System Requirement
 
 * Need Python versions >= 3.7.6
-* Install TensorFlow: pip3 install tensorflow
-* Install Keras: pip3 install keras
-* Install scikit-learn: pip3 install scikit-learn
-* Install pandas: pip3 install pandas
+* Install TensorFlow: ```pip3 install tensorflow```
+* Install Keras: ```pip3 install keras```
+* Install scikit-learn: ```pip3 install scikit-learn```
+* Install pandas: ```pip3 install pandas```
 
 ## Steps to run the inference
 
@@ -14,7 +14,7 @@
 
 ## Step to run the end-to-end pipeline
 
-* Download the raw audio signals into [data-raw](./data-raw/) directory (since the sizes of the raw data is quite large, so they are not included in this repository). For access to the raw data, please contact the [FluSense](https://github.com/Forsad/FluSense-data) authors.
+* Download the raw audio signals into [raw-data](./raw-data/) directory (since the sizes of the raw data is quite large, so they are not included in this repository). For access to the raw data, please contact the [FluSense](https://github.com/Forsad/FluSense-data) authors.
 * To create processed spectrogram images from these raw audio signals, run ```python3 processed_data_generator.py```
 * To create the train-val-test datasets, run ```python3 label_generator.py```
 * (Optional) to look at the class distribution , run ```python3 stat_generator.py```
