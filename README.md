@@ -18,5 +18,5 @@
 * To create processed spectrogram images from these raw audio signals, run ```python3 processed_data_generator.py```
 * To create the train-val-test datasets, run ```python3 label_generator.py```
 * (Optional) to look at the class distribution , run ```python3 stat_generator.py```
-* To train the neural network classifier, run ```python3 mode_generator.py --model resnet```. IMPORTANT NOTE: the code also provide the ability to train other well-known deep learning architectures such as DenseNet, Xception and InceptionV3, and can be obtain by passing ```densenet```, ```xception```, ```inception``` to the argument ```--model```.
+* To train the neural network classifier, run ```python3 model_generator.py --model resnet```. IMPORTANT NOTE: the code also provide the ability to train other well-known deep learning architectures such as DenseNet, Xception and InceptionV3, and can be obtain by passing ```densenet```, ```xception```, ```inception``` to the argument ```--model```.
 * To test the classifier, run ```python3 prediction_generator.py --model resnet```. Two CSVs are output: a classification reports and a confusion matrix in the directory named after the model used.
